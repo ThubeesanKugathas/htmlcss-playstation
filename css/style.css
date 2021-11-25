@@ -1,0 +1,49 @@
+
+/* ----------------------------------HEADER------------------------------- */
+
+.ms_header-logo-sony {
+    background-color: #000;
+    position: relative;
+    height: 30px;
+}
+
+.ms_header-logo-sony img {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    height: 50%;
+    
+}
+
+/* navbar */
+
+
+/* ----------------------------------MAIN------------------------------- */
+
+/* jumbotron  */
+
+.ms_jumbotron-background {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.ms_jumbotron-text {
+    color: #fff;
+}
+
+.ms_jumbotron-text > * {
+    margin-bottom: 20px;
+}
+
+.ms_jumbotron-text img {
+    width: 50%;
+}
+
+.ms_jubotron-button {
+    background-color: #cd3d0f;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* ----------------------------------FOOTER------------------------------- */
