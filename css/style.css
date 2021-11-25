@@ -1,3 +1,21 @@
+/* COMMON  */
+
+.ms_img-100-width {
+    width: 100%;
+}
+
+.ms_radius {
+    border-radius: 20px;
+}
+
+.ms_blue-button {
+    background-color: #2d64e6;
+    color: #fff;
+}
+
+.ms_grey-text {
+    color: #727272;
+}
 
 /* ----------------------------------HEADER------------------------------- */
 
@@ -43,23 +61,27 @@
 .ms_jubotron-button {
     background-color: #cd3d0f;
     color: #fff;
-    border-radius: 20px;
 }
 
 /* part 1  */
-
-.ms_part-1-img-row-1 {
-    border-radius: 5px;
-    width: 100%;
+.ms_no-limits {
+    padding: 40px 0;
 }
 
-.ms_part-1-img-row-2 {
-    width: 100%;
+.ms_no-limits p:first-child {
+    color: #2d64e6;
+    margin-bottom: 0;
 }
 
-.ms_part-1-img-row-3 {
-    width: 100%;
+.ms_no-limits p:last-child {
+    color: #727272;
+    margin-top: 20px;
 }
+
+.ms_font-size {
+    font-size: 12px;
+}
+
 
 /* part 2 */
 
@@ -82,33 +104,31 @@
     color: #fff;
 }
 
-.ms_part-2-image-row {
-    width: 100%;
-    border-radius: 20px;
-}
 
 /* part 4  */
-.ms_part-4-image-row {
-    width: 100%;
-}
+
 
 /* part 5  */
 .ms_plus-bg {
     background-color: #bebcbb;
 }
 
+.ms_plus-bg p {
+    margin: 30px 0;
+}
+
 #ms_part-5-image-row {
     width: 200px;
 }
 
-.ms_part-5-image-row {
-    width: 100%;
+.ms_plus-button {
+    color: #2d64e6;
+    background-color: #d9dadc;
 }
 
+
 /* part 6  */
-.ms_part-6-image-row {
-    width: 100%;
-}
+
 
 /* part 7  */
 .ms_now-bg {
@@ -117,14 +137,15 @@
 
 .ms_now-bg p {
     color: #fff;
+    margin: 30px 0;
 }
 
 #ms_part-7-image-row {
     width: 200px;
 }
 
-.ms_part-7-image-row {
-    width: 100%;
+.ms_now-button {
+    background-color: #f5f5f5;
 }
 
 /* part 8  */
