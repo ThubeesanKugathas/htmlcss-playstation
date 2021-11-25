@@ -46,4 +46,12 @@
     border-radius: 20px;
 }
 
+/* part 2 */
+
+.ms_jumbotron-2-background {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
 /* ----------------------------------FOOTER------------------------------- */
