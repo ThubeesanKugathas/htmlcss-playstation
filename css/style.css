@@ -46,6 +46,21 @@
     border-radius: 20px;
 }
 
+/* part 1  */
+
+.ms_part-1-img-row-1 {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.ms_part-1-img-row-2 {
+    width: 100%;
+}
+
+.ms_part-1-img-row-3 {
+    width: 100%;
+}
+
 /* part 2 */
 
 .ms_jumbotron-2-background {
