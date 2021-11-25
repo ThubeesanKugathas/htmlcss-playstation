@@ -87,5 +87,48 @@
     border-radius: 20px;
 }
 
+/* part 4  */
+.ms_part-4-image-row {
+    width: 100%;
+}
+
+/* part 5  */
+.ms_plus-bg {
+    background-color: #bebcbb;
+}
+
+#ms_part-5-image-row {
+    width: 200px;
+}
+
+.ms_part-5-image-row {
+    width: 100%;
+}
+
+/* part 6  */
+.ms_part-6-image-row {
+    width: 100%;
+}
+
+/* part 7  */
+.ms_now-bg {
+    background-color: #161c3b;
+}
+
+.ms_now-bg p {
+    color: #fff;
+}
+
+#ms_part-7-image-row {
+    width: 200px;
+}
+
+.ms_part-7-image-row {
+    width: 100%;
+}
+
+/* part 8  */
+
+
 
 /* ----------------------------------FOOTER------------------------------- */
