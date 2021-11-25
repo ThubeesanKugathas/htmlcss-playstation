@@ -82,7 +82,18 @@
     font-size: 12px;
 }
 
+.ms_layover img {
+    opacity: 0.7;
+    transition: all 0.5s;
+}
 
+.ms_layover:hover {
+    border-bottom: 2px solid #2d64e6;
+}
+
+.ms_layover:hover img {
+    opacity: 1;
+}
 /* part 2 */
 
 .ms_jumbotron-2-background {
@@ -149,7 +160,31 @@
 }
 
 /* part 8  */
-
+.ms_img-80-width {
+    width: 80%;
+}
 
 
 /* ----------------------------------FOOTER------------------------------- */
+
+.ms_footer-bg {
+    background-color: #2d64e6;
+    color: #fff;
+}
+
+.ms_footer-bg img {
+    width: 80px;
+}
+
+#ms_country-footer {
+    width: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.ms_font-size-footer,
+footer li {
+    font-size: 12px;
+}
