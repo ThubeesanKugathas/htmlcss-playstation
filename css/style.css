@@ -124,6 +124,11 @@ header .ms_search-icons {
     transition: all 0.3s;
 }
 
+.ms_jumbo-title-image-shadow:hover {
+    filter: drop-shadow(3px 2px 0px rgb(216, 216, 50));
+    transition: all 0.5s;
+
+}
 
 
 .ms_pt {
