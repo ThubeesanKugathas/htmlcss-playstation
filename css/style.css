@@ -6,6 +6,9 @@
 
 .ms_radius {
     border-radius: 20px;
+    padding: 1px;
+    border: 0;
+    font-size: 15px;
 }
 
 .ms_blue-button {
@@ -13,8 +16,23 @@
     color: #fff;
 }
 
+.ms_blue-button-hover {
+    border: 2px solid #2d64e6;
+}
+
+.ms_blue-button:hover .ms_blue-button-hover {
+    border: 2px solid #77a0ff;
+    color: #fff;
+    transition: all 0.3s;
+}
+
 .ms_grey-text {
     color: #727272;
+}
+
+.ms_button-border {
+    border-radius: 20px;
+    padding: 2px 5px;
 }
 
 /* ----------------------------------HEADER------------------------------- */
@@ -34,9 +52,41 @@
 }
 
 /* navbar */
+.ms_search-icon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 20px;
+}
 
+.ms_button-accedi {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.ms_button-accedi-hover {
+    border: 2px solid #1f1f1f;
+}
+
+.ms_button-accedi:hover .ms_button-accedi-hover {
+    border: 2px solid #505050;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+header img,
+header .ms_search-icons {
+    margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
 
 /* ----------------------------------MAIN------------------------------- */
+
+.ms_mt-main {
+    margin-top: 70px;
+}
 
 /* jumbotron  */
 
@@ -63,7 +113,32 @@
     color: #fff;
 }
 
+.ms_jubotron-button-hover {
+    border: 2px solid #cd3d0f;
+
+}
+
+.ms_jubotron-button:hover .ms_jubotron-button-hover {
+    border: 2px solid #ca6c4d;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+
+.ms_pt {
+    padding-top: 150px;
+}
+
 /* part 1  */
+
+.ms_image-traslate:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+    border: 2px solid #2d64e6;
+
+}
+
 .ms_no-limits {
     padding: 40px 0;
 }
@@ -137,6 +212,16 @@
     background-color: #d9dadc;
 }
 
+.ms_plus-button-hover {
+    border: 2px solid #d9dadc;
+}
+
+.ms_plus-button:hover .ms_plus-button-hover {
+    border: 2px solid #fff;
+    color: #2d64e6;
+    transition: all 0.3s;
+}
+
 
 /* part 6  */
 
@@ -156,7 +241,17 @@
 }
 
 .ms_now-button {
-    background-color: #f5f5f5;
+    background-color: #fff;
+    color: #000;
+}
+
+.ms_now-button-hover {
+    border: 2px solid #fff;
+}
+
+.ms_now-button:hover .ms_now-button-hover {
+    border: 2px solid #000;
+    transition: all 0.3s;
 }
 
 /* part 8  */
