@@ -151,6 +151,11 @@ header .ms_search-icons {
 .ms_layover:hover img {
     opacity: 1;
 }
+
+.ms_layover a {
+    text-decoration: none;
+}
+
 /* part 2 */
 
 .ms_jumbotron-2-background {
@@ -166,6 +171,14 @@ header .ms_search-icons {
 
 .ms_nuove-uscite-bg p {
     color: #fff;
+}
+
+.ms_nuove-uscite-bg img {
+    border-radius: 20px;
+}
+
+.ms_nuove-uscite-hover:hover p {
+    text-decoration: underline;
 }
 
 .ms_text-nuove-uscite {
