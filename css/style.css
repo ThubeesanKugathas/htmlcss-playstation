@@ -67,6 +67,50 @@ header .ms_search-icons {
     color: #000;
 }
 
+.nav-item.dropdown.show a {
+    color: #2d64e6 !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
+}
+
+
+.ms_left-nav {
+    left: 0;
+}
+
+.ms_ps6 {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.ms_ps6 img {
+    width: 50px;
+}
+
+.ms_ps6-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.ms_ps6-list li::before {
+    content: "\2022";
+    color: #2d64e6 ;
+    font-weight: bold;
+    display: inline-block; 
+    margin-right: 5px;
+}
+
+.ms_ps6-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* ----------------------------------MAIN------------------------------- */
 
 .ms_mt-main {
